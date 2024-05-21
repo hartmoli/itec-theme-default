@@ -1,0 +1,379 @@
+{
+    "_inherit": true,
+    "_cards": true,
+    "customStyles": [
+        {
+            "cssRef": "theme.css",
+            "classRef": "theme-style"
+        }
+    ],
+    "_variables": {
+        "@TitleSize": "16px",
+        "@SubtitleSize": "13px",
+        "@TextSize": "12px",
+        "@FooterSize": "10px",
+        "@TitleColor": "#303030",
+        "@SubtitleColor": "#303030",
+        "@TextColor": "#333333",
+        "@FooterColor": "#333333",
+        "@BackgroundColor": "#ffffff",
+        "@AxisColor": "#DEDEDE",
+        "@FontTitle": "Sansation Bold",
+        "@FontSubtitle": "Calibri",
+        "@FontFootnotes": "Sansation Regular",
+        "@FontValues": "Calibri",
+        "@FontValuesLabels": "Calibri"
+    },
+    "color": "@TextColor",
+    "fontSize": "@TextSize",
+    "backgroundColor": "@BackgroundColor",
+    "dataColors": {
+        "primaryColor": "#0093C5",
+        "othersColor": "#ffd200",
+        "errorColor": "#CE3C50",
+        "nullColor": "#909697"
+    },
+    "object": {
+        "title": {
+            "main": {
+                "color": "@TitleColor",
+                "fontSize": "@TitleSize",
+                "fontFamily": "@FontTitle"
+            },
+            "subTitle": {
+                "color": "@SubtitleColor",
+                "fontSize": "@SubtitleSize",
+                "fontFamily": "@FontSubtitle"
+            },
+            "footer": {
+                "color": "@FooterColor",
+                "fontSize": "@FooterSize",
+                "backgroundColor": "#ffffff",
+                "fontFamily": "@FontFootnotes"
+            }
+        },
+        "label": {
+            "name": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize",
+                "fontFamily": "@FontValuesLabels"
+            },
+            "value": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize",
+                "fontFamily": "@FontValues"
+            }
+        },
+        "axis": {
+            "title": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize",
+                "fontFamily": "@FontValues"
+            },
+            "label": {
+                "name": {
+                    "color": "@TextColor",
+                    "fontSize": "@TextSize",
+                    "fontFamily": "@FontValuesLabels"
+                }
+            },
+            "line": {
+                "major": {
+                    "color": "#909697"
+                },
+                "minor": {
+                    "color": "#909697"
+                }
+            }
+        },
+        "grid": {
+            "line": {
+                "highContrast": {
+                    "color": "@AxisColor"
+                },
+                "major": {
+                    "color": "@AxisColor"
+                },
+                "minor": {
+                    "color": "@AxisColor"
+                }
+            }
+        },
+        "referenceLine": {
+            "label": {
+                "name": {
+                    "color": "@TextColor",
+                    "fontSize": "@TextSize",
+                    "fontFamily": "@FontValuesLabels"
+                }
+            },
+            "outOfBounds": {
+                "color": "@TextColor",
+                "backgroundColor": "#ffffff",
+                "fontSize": "@TextSize",
+                "fontFamily": "@FontValuesLabels"
+            }
+        },
+        "legend": {
+            "title": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize",
+                "fontFamily": "@FontValuesLabels"
+            },
+            "label": {
+                "color": "@TextColor",
+                "fontSize": "@TextSize",
+                "fontFamily": "@FontValuesLabels"
+            }
+        }
+    },
+    "palettes": {
+        "data": [
+            {
+                "name": "itec color palette",
+                "translation": "",
+                "propertyValue": "itecadjil3",
+                "type": "row",
+                "scale": [
+                    "#97C520",
+                    "#375460",
+                    "#449F9A",
+                    "#95B064",
+                    "#F7DA57",
+                    "#E6BC65",
+                    "#A4B080",
+                    "#5D8672",
+                    "#49645B",
+                    "#2e4550"
+                ]
+            },
+            {
+                "name": "default color palette",
+                "translation": "",
+                "propertyValue": "nas6jyx",
+                "type": "row",
+                "scale": [
+                    "#6AC7EE",
+                    "#A1C453",
+                    "#EB72A8",
+                    "#006888",
+                    "#f08200",
+                    "#007154",
+                    "#ffd200",
+                    "#883D48",
+                    "#0093C5",
+                    "#269C45",
+                    "#CE3C50",
+                    "#6B777B",
+                    "#909697",
+                    "#DEDEDE",
+                    "#000000"
+                ]
+            },
+            {
+                "name": "Blue",
+                "translation": "",
+                "propertyValue": "ym5hh8s",
+                "type": "row",
+                "scale": [
+                    "#0093c5",
+                    "#2ea6cf",
+                    "#5cbada",
+                    "#8bcde4",
+                    "#b9e1ef",
+                    "#e7f5f9"
+                ]
+            },
+            {
+                "name": "Green",
+                "translation": "",
+                "propertyValue": "0ykysti",
+                "type": "row",
+                "scale": [
+                    "#269C45",
+                    "#4dae66",
+                    "#74c088",
+                    "#9cd2aa",
+                    "#c3e4cc",
+                    "#ebf6ee"
+                ]
+            },
+            {
+                "name": "Red",
+                "translation": "",
+                "propertyValue": "7uu04jp",
+                "type": "row",
+                "scale": [
+                    "#ce3c50",
+                    "#d65f6f",
+                    "#df828f",
+                    "#e8a6af",
+                    "#f1c9cf",
+                    "#faedef"
+                ]
+            },
+            {
+                "name": "Blue to Orange",
+                "translation": "Blue to Orange",
+                "propertyValue": "itecblueorange",
+                "type": "row",
+                "scale": [
+                    "#3488C4",
+                    "#78B0D8",
+                    "#BBD7EB",
+                    "#4A4E8A",
+                    "#8689B1",
+                    "#BFC1D6",
+                    "#E07E2D",
+                    "#ECAE7C",
+                    "#F5D6BD"
+                ]
+            },
+            {
+                "name": "Dark colors",
+                "translation": "Dark colors",
+                "propertyValue": "12",
+                "type": "row",
+                "scale": [
+                    "#808080",
+                    "#737373",
+                    "#666666",
+                    "#595959",
+                    "#4D4D4D",
+                    "#474747",
+                    "#404040",
+                    "#333333",
+                    "#262626",
+                    "#1A1A1A",
+                    "#0D0D0D",
+                    "#000000"
+                ]
+            },
+            {
+                "name": "Light colors",
+                "translation": "Light colors",
+                "propertyValue": "11",
+                "type": "row",
+                "scale": [
+                    "#FFFFFF",
+                    "#FBFBFB",
+                    "#F2F2F2",
+                    "#E6E6E6",
+                    "#D9D9D9",
+                    "#CCCCCC",
+                    "#BFBFBF",
+                    "#B3B3B3",
+                    "#A6A6A6",
+                    "#999999",
+                    "#8C8C8C"
+                ]
+            }
+        ],
+        "ui": [
+            {
+                "colors": [
+                    "#97C520",
+                    "#ffffff",
+                    "#449F9A",
+                    "#95B064",
+                    "#F7DA57",
+                    "#375460",
+                    "#46c646",
+                    "#276e27",
+                    "#7db8da",
+                    "#4477aa",
+                    "#ffcf02",
+                    "#f8981d",
+                    "#f93f17",
+                    "#b0afae",
+                    "#7b7a78",
+                    "#000000"
+                ],
+                "name": "Single Color picker",
+                "_id": "5ab4d79c16fa1c02fb7a36fb"
+            }
+        ]
+    },
+    "scales": [
+        {
+            "scale": [
+                "#ff0000",
+                "#ffd200",
+                "#269C45"
+            ],
+            "name": "Red Amber Green",
+            "translation": "",
+            "type": "gradient",
+            "propertyValue": "lyvc1a",
+            "_id": "5ab4fb1416fa1c02fb7a36fe"
+        },
+        {
+            "scale": [
+                "#000000",
+                "#888888",
+                "#909697",
+                "#DEDEDE"
+            ],
+            "name": "Graydient",
+            "translation": "",
+            "type": "gradient",
+            "propertyValue": "x6eel",
+            "_id": "5ab5039a16fa1c02fb7a36ff"
+        },
+        {
+            "scale": [
+                "#e7f5f9",
+                "#b9e1ef",
+                "#b3c8e6",
+                "#5cbada",
+                "#0089c4",
+                "#005a8b"
+            ],
+            "name": "Blue Classes",
+            "translation": "Blue",
+            "type": "class",
+            "propertyValue": "6zhyhn",
+            "_id": "5ab921df16fa1c02fb7a370e"
+        },
+        {
+            "name": "Light colors sequential gradient",
+            "translation": "Light colors sequential gradient",
+            "type": "gradient",
+            "propertyValue": "sg",
+            "scale": [
+                "#8C8C8C",
+                "#FBFBFB"
+            ]
+        },
+        {
+            "name": "Light colors sequential classes",
+            "translation": "Light colors sequential classes",
+            "propertyValue": "sc",
+            "type": "class",
+            "scale": [
+                "#8C8C8C",
+                "#FBFBFB"
+            ]
+        },
+        {
+            "name": "Dark colors diverging gradient",
+            "translation": "Dark colors diverging gradient",
+            "propertyValue": "dg",
+            "type": "gradient",
+            "scale": [
+                "#737373",
+                "#0D0D0D"
+            ]
+        },
+        {
+            "name": "Dark colors diverging classes",
+            "translation": "Dark colors diverging classes",
+            "propertyValue": "dc",
+            "type": "class",
+            "scale": [
+                "#737373",
+                "#0D0D0D"
+            ]
+        }
+    ]
+}

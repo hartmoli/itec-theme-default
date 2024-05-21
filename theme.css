@@ -1,0 +1,44 @@
+:root { 
+    --backgroundcolor: #f2f2f2;
+  }
+
+/* Background sheet color */
+.qvt-sheet {
+    background: var(--backgroundcolor) !important;
+}
+
+.qv-filterpane-column.ng-scope {
+    background-color: var(--backgroundcolor)  !important;
+}
+
+/* CSS adjustment variable input extension */
+.qv-object-qlik-variable-input>.qv-inner-object {
+    padding: 0px !important;
+    background-color: var(--backgroundcolor) !important;
+}
+article.qv-object.qvt-visualization.qv-object-qlik-variable-input.qv-layout-spark {
+    border: 0px !important;
+}
+.qv-object-qlik-variable-input>.qv-inner-object>.qv-object-content-container>.qv-object-content>div>.qlik>button:not(.lui-active) {
+    background-color: white !important;
+}
+
+/*example of adding custom font */
+@font-face {
+    font-family: "Sansation Regular";
+    src: url("fonts/Sansation_Regular.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Sansation Bold";
+    src: url("fonts/Sansation_Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Futura";
+    src: url("fonts/FuturaT_Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
